@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>CSS Hover Element - Selector OR Child Combinator</title>
+		<style type="text/css">
+		#MainUL li ul li{display:none;}
+        #MainUL li:hover ul li{display:block;}
+        #MAinUL li:hover ul li ul li{display:none;}
+        #MainUL li ul li:hover ul li{display:block;}    
+        #MainUL li ul li:hover ul li ul li{display:none;}
+		#MainUL li ul li ul li:hover ul li{display:block;}
+		</style>
+		
+	</head>
+	<body>
+		<ul id="MainUL">
+            <li>sheldiya 
+				<ul>
+					<li>jagdishbhai
+						<ul>
+							<li>vivek</li>
+							<li>vidhi
+								<ul>
+									<li>vivan</li>
+									<li>vinay</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>Youtube</li>
+					<li>GDrive</li>
+					<li>GMap</li>
+				</ul>
+			</li>
+			<li>instagram</li>
+			<li>apple</li>
+				<ul>
+					<li>Bing</li>
+					<li>Linked In</li>
+				</ul>
+			</li>
+			<li>MSN</li>
+			<li>Amazon
+				<ul>
+					<li>AWS</li>
+					<li>Ecommerce</li>
+					<li>A-ML</li>
+				</ul>
+			</li>
+		</ul>
+		
+	</body>
+</html>
